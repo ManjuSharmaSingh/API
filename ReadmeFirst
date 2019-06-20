@@ -1,0 +1,22 @@
+###############################################################################
+This is the readme for the program to get "Rotten Tomatoes" ratings for any movie
+##############################################################################
+1.clone the git repository & run doccker.sh file as follows.
+
+# chmod 777 docker.sh
+# sh docker.sh
+
+Now you will be inside your docker container.
+Note: docker should be installed in your server.
+
+2. How to run script.
+
+- Go to the required directory i.e. movie_rating_api_code
+# cd /movie_rating_api_code
+
+-Run following command:
+# sh rating.sh <Title of Movie>
+
+eg; sh rating.sh "dark%20phoenix"
+or sh rating.sh "Bharat" 
+
